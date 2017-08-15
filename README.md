@@ -1,7 +1,7 @@
 # raspconfig
-I wanted to develop a method to automate setup for my Raspberry Pi based on certain options.
+Since a Raspberry Pi allows you to hotswap your OS using a SD card, I wanted a more automated method for configuring it to my specifications.
 
-I learned about Chef IO, which is a distribution tool that allows you to configure environments based off a cookbook.
+I learned about Chef IO, which is a distribution tool that allows you to configure environments based off a cookbook. Using chef, you can specify what options you want configured on your Pi.
 
 While Chef Cookbooks are typically platform independent, this is primarily designed for the Raspberry Pi.
 
